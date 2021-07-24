@@ -5,9 +5,7 @@
     </p>
 </div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NyashaNziramasanga/react-native-horizontal-scroll-menu/main/horizontal-scroll-menu.gif?token=ALOFOKRR72AUELCBSE24P7LA7QTQY"/>
-</p>
+![Horizontal Scroll Menu](horizontal-scroll-menu.gif)
 
 
 ## 🏁 Getting Started
