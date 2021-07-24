@@ -1,0 +1,39 @@
+{
+  "name": "react-native-horizontal-scroll-menu",
+  "version": "1.0.0",
+  "description": "A horizontally scrolling tab/picker component for React Native",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "scroll",
+    "menu",
+    "horizontal scrolling menu",
+    "horizontal menu",
+    "react native scroll menu",
+    "react-native-horizontal-picker",
+    "picker",
+    "tabs",
+    "react native tabs",
+    "horizontal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyashaNziramasanga/react-native-horizontal-scroll-menu.git"
+  },
+  "author": "NyashaNziramasanga (http://nyashanziramasanga.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NyashaNziramasanga/react-native-horizontal-scroll-menu/issues"
+  },
+  "homepage": "https://github.com/NyashaNziramasanga/react-native-horizontal-scroll-menu#readme",
+  "dependencies": {
+    "@types/react-native": "^0.64.12",
+    "react-native": "^0.64.2"
+  }
+}
