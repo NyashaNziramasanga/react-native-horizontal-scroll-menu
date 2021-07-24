@@ -1,4 +1,5 @@
 {
+  "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "jsx": "react-native",
@@ -11,6 +12,5 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true
-  },
-  "extends": "expo/tsconfig.base"
+  }
 }

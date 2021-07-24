@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import HorizontalScrollMenu, { routeProps } from 'react-native-horizontal-scroll-menu';
+import HorizontalScrollMenu, { RouteProps } from 'react-native-horizontal-scroll-menu/src';
 
 export default function App() {
   const [selected, setSelected] = useState(1);
@@ -28,7 +28,7 @@ export default function App() {
     },
   ];
 
-  const onPress = (route: routeProps) => {
+  const onPress = (route: RouteProps) => {
     setSelected(route.id);
     console.log('Tab pressed', route.id);
   };
@@ -40,8 +40,6 @@ export default function App() {
         onPress={onPress}
         selected={selected}
         buttonStyle={styles.buttonStyle}
-        // activeBackgroundColor={''}
-        // textStyle={themeTextStyle}
         itemWidth={80}
       />
     </View>

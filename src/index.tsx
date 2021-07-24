@@ -34,7 +34,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   upperCase = false,
   textStyle,
   buttonStyle,
-  activeTextColor = '#006EFD',
+  activeTextColor = '#ffffff',
   activeBackgroundColor = '#000000',
   selected = 0,
   containerStyle: scrollAreaStyle = {},
