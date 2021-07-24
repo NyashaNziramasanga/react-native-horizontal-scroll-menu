@@ -4,17 +4,17 @@ import { Pressable, ScrollView, StyleProp, StyleSheet, Text, TextStyle, View, Vi
 
 const screenWidth = Dimensions.get('window').width;
 
-type routeProps = {
+export type routeProps = {
   id: number;
   name: string;
 };
 
-type NavigationTabsProps = {
+export type NavigationTabsProps = {
   id: number;
   name: string;
 };
 
-type HorizontalScrollMenu = {
+export type HorizontalScrollMenu = {
   items: Array<NavigationTabsProps>;
   onPress: (route: routeProps) => void;
   upperCase?: boolean;

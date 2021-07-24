@@ -27,7 +27,9 @@ Clone the project and cd into example to see a sample
 
 ```bash
 cd example
-yarn
+
+yarn / npm i
+
 expo start
 ```
 
