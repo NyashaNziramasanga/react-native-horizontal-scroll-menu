@@ -5360,9 +5360,9 @@ react-native-codegen@^0.0.6:
     nullthrows "^1.1.1"
 
 react-native-horizontal-scroll-menu@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.0.tgz#a21e9104ea0d47d0a1f3f95d144136e2e39dfb87"
-  integrity sha512-Iti1vtQOK05khl8i7zgb+vktiSEmLWia1DD8zFeQPW5G2Dq3E8ZsmcLzma/iCCAalC3SE60NjREMwaDkLgagAQ==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.1.tgz#968117952ca1b8cc9006ee631b31c339bfbffcdc"
+  integrity sha512-CwShTp8SVb+KvhDIDLMCW2DyKukM9PWqENTfixTA0kHS9Y2DM4egzPkadLSOtlaVQOImzLWGSZ75JpPML63A/g==
   dependencies:
     "@types/react-native" "^0.64.12"
     react-native "^0.64.2"
