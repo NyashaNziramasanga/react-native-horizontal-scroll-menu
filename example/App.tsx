@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 import HorizontalScrollMenu, { RouteProps } from 'react-native-horizontal-scroll-menu/src';
 
 export default function App() {
-  const [selected, setSelected] = useState(1);
+  const [selectedIndex, setSelectedIndex] = useState(1);
 
   const NavigationTabs = [
     {
       id: 0,
-      name: 'menu1',
+      name: 'Tab1',
     },
     {
       id: 1,
-      name: 'menu2',
+      name: 'Tab2',
     },
     {
       id: 2,
-      name: 'menu3',
+      name: 'Tab3',
     },
     {
       id: 3,
-      name: 'menu4',
+      name: 'Tab4',
     },
     {
       id: 4,
-      name: 'menu5',
+      name: 'Tab5',
     },
   ];
 
   const onPress = (route: RouteProps) => {
-    setSelected(route.id);
-    console.log('Tab pressed', route.id);
+    setSelectedIndex(route.id);
+    console.log('Tab pressed', route);
   };
 
   return (
@@ -38,10 +38,14 @@ export default function App() {
       <HorizontalScrollMenu
         items={NavigationTabs}
         onPress={onPress}
-        selected={selected}
+        selected={selectedIndex}
         buttonStyle={styles.buttonStyle}
         itemWidth={80}
+        scrollAreaStyle={{ height: 50 }}
       />
+
+      <Text style={styles.text}>TabName: {NavigationTabs[selectedIndex].name}</Text>
+      <Text style={styles.text}>TabIndex: {selectedIndex}</Text>
     </View>
   );
 }
@@ -56,5 +60,9 @@ const styles = StyleSheet.create({
   buttonStyle: {
     margin: 0,
     borderWidth: 0,
+  },
+  text: {
+    fontSize: 30,
+    margin: 15,
   },
 });
