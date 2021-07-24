@@ -1,7 +1,7 @@
 <div align="center">
     <h1> React Native Horizontal Scroll Menu </h1>
     <p>
-      <i>Tagline/description</i>
+      <i>A horizontally scrolling tab/picker component for React Native</i>
     </p>
 </div>
 
