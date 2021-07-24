@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import HorizontalScrollMenu from 'react-native-horizontal-scroll-menu';
+import HorizontalScrollMenu, { routeProps } from 'react-native-horizontal-scroll-menu/src';
 
 export default function App() {
   const [selected, setSelected] = useState(1);
-
-  type routeProps = {
-    id: number;
-    name: string;
-  };
 
   const NavigationTabs = [
     {
