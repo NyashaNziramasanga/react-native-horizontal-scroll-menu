@@ -90,7 +90,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   const centerPadding = screenWidth / 2 - itemWidth / 2;
 
   return (
-    <View style={scrollAreaStyle}>
+    <View style={[scrollAreaStyle, styles.scrollAreaStyle]}>
       <ScrollView
         ref={scrollViewRef}
         bounces={true}
@@ -154,7 +154,13 @@ const styles = StyleSheet.create({
   buttonStyles: {
     marginRight: 10,
   },
-  contentContainerStyle: { alignItems: 'center', justifyContent: 'center' },
+  contentContainerStyle: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  scrollAreaStyle: {
+    height: 50,
+  },
 });
 
 export default HorizontalScrollMenu;
