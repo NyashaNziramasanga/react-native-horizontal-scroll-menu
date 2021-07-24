@@ -4649,10 +4649,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-horizontal-scroll-menu@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.3.tgz#6603306ee7c32ba84906e292fc1c335ef6a2a60b"
-  integrity sha512-+Yr3XfHosiPsVT8IyHmt8Ti01+AnhXqig27I0Fn96VZulnyqQ5Gv2zB2oFMtv9HQbzgwmMynyWk7y4ty4A9QlQ==
+react-native-horizontal-scroll-menu@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.4.tgz#a4ef5b0d4ee0b6ad1541a846ba195d67208d1d1e"
+  integrity sha512-6A0kQTC+R5KgZgXlOsa+dBp3NvSRe7eihF+gQt5037Kc9cbbqR4c/bVDCndBl1c5JHGMvI2l2tfA5gjxgqUhQw==
 
 react-native-safe-area-context@3.2.0:
   version "3.2.0"
