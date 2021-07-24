@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
-import HorizontalScrollMenu, { routeProps } from 'react-native-horizontal-scroll-menu/src';
+import HorizontalScrollMenu, { routeProps } from 'react-native-horizontal-scroll-menu';
 
 export default function App() {
   const [selected, setSelected] = useState(1);
