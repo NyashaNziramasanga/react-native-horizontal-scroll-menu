@@ -1,6 +1,6 @@
 {
-  "name": "react-native-horizontal-scroll-menu",
-  "version": "1.0.5",
+  "name": "@nyashanziramasanga/react-native-horizontal-scroll-menu",
+  "version": "1.0.6",
   "description": "A horizontally scrolling tab/picker component for React Native",
   "react-native": "src/index.tsx",
   "main": "lib/commonjs/index.js",
@@ -11,7 +11,11 @@
     "/lib"
   ],
   "directories": {
-    "example": "example"
+    "example": "example",
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "yarn validate:typescript",

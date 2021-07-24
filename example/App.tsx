@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import HorizontalScrollMenu, { RouteProps } from 'react-native-horizontal-scroll-menu/src';
+import HorizontalScrollMenu, { RouteProps } from '@nyashanziramasanga/react-native-horizontal-scroll-menu/src';
 
 export default function App() {
   const [selectedIndex, setSelectedIndex] = useState(1);

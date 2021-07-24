@@ -8,12 +8,12 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@nyashanziramasanga/react-native-horizontal-scroll-menu": "^1.0.6",
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-horizontal-scroll-menu": "1.0.5",
     "react-native-web": "~0.13.12"
   },
   "license": "MIT",

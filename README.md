@@ -14,16 +14,18 @@
 ## 🏁 Getting Started
 
 ```bash
-npm i react-native-horizontal-scroll-menu
+npm i @nyashanziramasanga/react-native-horizontal-scroll-menu
 ```
 
 ```bash
-yarn add react-native-horizontal-scroll-menu
+yarn add @nyashanziramasanga/react-native-horizontal-scroll-menu
 ```
 
 ## Usage
 
 ```javascript
+import HorizontalScrollMenu, { RouteProps } from '@nyashanziramasanga/react-native-horizontal-scroll-menu/src';
+
  const [selectedIndex, setSelectedIndex] = useState(1);
 
   const NavigationTabs = [
