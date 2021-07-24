@@ -23,7 +23,7 @@ export type HorizontalScrollMenu = {
   activeTextColor?: string;
   activeBackgroundColor?: string;
   selected: number;
-  containerStyle?: object;
+  scrollAreaStyle?: StyleProp<ViewStyle>;
   keyboardShouldPersistTaps?: boolean | 'always' | 'never' | 'handled';
   itemWidth?: number;
 };
@@ -37,7 +37,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   activeTextColor = '#ffffff',
   activeBackgroundColor = '#000000',
   selected = 0,
-  containerStyle: scrollAreaStyle = {},
+  scrollAreaStyle,
   keyboardShouldPersistTaps = 'always',
   itemWidth = 100,
 }) => {
