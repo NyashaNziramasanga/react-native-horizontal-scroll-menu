@@ -5,11 +5,9 @@
     </p>
 </div>
 
-<!-- ![Horizontal Scroll Menu](horizontal-scroll-menu.gif) -->
-
-<p align="center">
-  <img src="https://github.com/NyashaNziramasanga/react-native-horizontal-scroll-menu/blob/main/horizontal-scroll-menu.gif" alt="horizontal-scroll-menu.gif"/>
-</p>
+|  Actual Project Usage      | Sample |
+| :---:        |    :----:   |  
+| ![Horizontal Scroll Menu 1](./images/example-usage.gif)      | ![Horizontal Scroll Menu 2](./images/horizontal-scroll-menu.gif)   | 
 
 ## 🏁 Getting Started
 
@@ -17,11 +15,13 @@
 npm i @nyashanziramasanga/react-native-horizontal-scroll-menu
 ```
 
+or
+
 ```bash
 yarn add @nyashanziramasanga/react-native-horizontal-scroll-menu
 ```
 
-## Usage
+## 🧰 Usage
 
 ```javascript
 import HorizontalScrollMenu, { RouteProps } from '@nyashanziramasanga/react-native-horizontal-scroll-menu/src';
@@ -67,7 +67,7 @@ const onPress = (route: RouteProps) => {
   )
 ```
 
-## Props
+## ⚙️ Props
 
 ### Required
 
@@ -82,17 +82,17 @@ const onPress = (route: RouteProps) => {
 | Prop      | Description | Type     | Default    |
 | :---        |    :----:   |          ---: |---: |
 | upperCase      | Change text to uppercase      | boolean  | false    |
-| textStyle      | Style for menu items      | StyleProp<TextStyle>  |  color: '#8C8C8C'   |
+| textStyle      | Style for menu items      | StyleProp<TextStyle>  |  #8C8C8C   |
 | buttonStyle      | Style for menu buttons     | StyleProp<TextStyle>  | marginRight: 10    |
-| activeTextColor      | Selected/active tab item text color      | string  | '#ffffff' |
-| activeBackgroundColor      | Selected/active tab item background colour     | string | '#000000'   |
+| activeTextColor      | Selected/active tab item text color      | string  | #ffffff |
+| activeBackgroundColor      | Selected/active tab item background colour     | string | #000000   |
 | scrollAreaStyle      | Style for the scroll area     | StyleProp<ViewStyle> | height: 50   |
-| keyboardShouldPersistTaps      |    | boolean | "always" | "never" | "handled" | 'always'  |
+| keyboardShouldPersistTaps      |    | boolean | always | never | handled | always  |
 | itemWidth      | Width of each tab item    | number | 100   |
 
 ## Example
 
-Clone the project and cd into `example` frle to see a sample
+Clone the project and cd into `example` folder to see a sample
 
 ```bash
 cd example
