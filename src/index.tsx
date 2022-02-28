@@ -41,7 +41,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   keyboardShouldPersistTaps = 'always',
   itemWidth = 100,
 }) => {
-  const [index, setIndex] = useState<number>();
+  const [index, setIndex] = useState<number>(selected);
   const [cords, setCords] = useState<LayoutRectangle>();
 
   const scrollViewRef = useRef<ScrollView>(null);
