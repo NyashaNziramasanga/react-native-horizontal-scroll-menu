@@ -90,7 +90,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   const centerPadding = screenWidth / 2 - itemWidth / 2;
 
   return (
-    <View style={[scrollAreaStyle, styles.scrollAreaStyle]}>
+    <View style={[styles.scrollAreaStyle, scrollAreaStyle]}>
       <ScrollView
         ref={scrollViewRef}
         bounces={true}
