@@ -2032,10 +2032,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@nyashanziramasanga/react-native-horizontal-scroll-menu@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@nyashanziramasanga/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.6.tgz#157714aae0a67c81c7ea5fef8e458c2d25a8ba79"
-  integrity sha512-T/21KxfFSmC0m1ZY4MC/9T4VmHFMzHwyE0FNf+JLcMOUcBzrsK7nrI88TVzcEp1/PcgezRb7G9jg9sWu+vZidA==
+"@nyashanziramasanga/react-native-horizontal-scroll-menu@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@nyashanziramasanga/react-native-horizontal-scroll-menu/-/react-native-horizontal-scroll-menu-1.0.10.tgz#9e7a3f4d66725687a9d8a651a6f891fcf7bfb78c"
+  integrity sha512-+VLewBONcmgtfRpe18EMIkqMkl+9jklRutWyX5OljeeeSeWHqMAP0qCpkTMmjAtqm5Hn8F0lh0akWoW7t3KbSg==
 
 "@react-native-community/cli-clean@^10.1.1":
   version "10.1.1"

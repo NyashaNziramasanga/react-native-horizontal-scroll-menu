@@ -8,7 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@nyashanziramasanga/react-native-horizontal-scroll-menu": "^1.0.6",
+    "@nyashanziramasanga/react-native-horizontal-scroll-menu": "^1.0.10",
     "@types/react": "~18.0.27",
     "expo": "^48.0.0",
     "expo-status-bar": "~1.4.4",
