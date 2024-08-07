@@ -26,6 +26,7 @@ export type HorizontalScrollMenu = {
   scrollAreaStyle?: StyleProp<ViewStyle>;
   keyboardShouldPersistTaps?: boolean | 'always' | 'never' | 'handled';
   itemWidth?: number;
+  centerPadding?: number;
 };
 
 const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
@@ -40,6 +41,7 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
   scrollAreaStyle,
   keyboardShouldPersistTaps = 'always',
   itemWidth = 100,
+  centerPadding = screenWidth / 2 - itemWidth / 2
 }) => {
   const [index, setIndex] = useState<number>(selected);
   const [cords, setCords] = useState<LayoutRectangle>();
@@ -86,8 +88,6 @@ const HorizontalScrollMenu: React.FC<HorizontalScrollMenu> = ({
     setTimeout(scrollToDefaultIndex, 0);
     setCords(layout);
   };
-
-  const centerPadding = screenWidth / 2 - itemWidth / 2;
 
   return (
     <View style={[styles.scrollAreaStyle, scrollAreaStyle]}>
